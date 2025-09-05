@@ -1,12 +1,15 @@
 # bc-calhoun-idx--trust-bold-reordered
 
-bc-calhoun-idx
-<<<<<<< HEAD
-# Test commit from Desktop
-=======
+This project is an IDX-based real estate website focused on **Battle Creek, Tekonsha, and Calhoun County, Michigan**, built and maintained by Michael Delmont, Realtor®.
 
-here is another line
+## 🚀 Features
+- IDX integration for local property listings
+- Keller Williams Kalamazoo branding
+- Custom color palette for high-conversion design
+- Optimized for lead generation and client engagement
 
+## 🛠 Setup
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/USERNAME/bc-calhoun-idx--trust-bold-reordered.git
 
-
->>>>>>> 4665aab45ec6b4b463c2e8d91a0ebe7c5582a67d
