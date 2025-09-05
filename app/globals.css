@@ -1,0 +1,32 @@
+:root{
+  --primary:#1D3557;
+  --secondary:#C1121F;
+  --accent:#F4A261;
+  --neutral-dark:#2B2D42;
+  --neutral-light:#F8F9FA;
+}
+*{box-sizing:border-box}
+body{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,Apple Color Emoji,Segoe UI Emoji;color:var(--neutral-dark);background:#fff}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:1200px;margin:0 auto;padding:24px}
+.btn{display:inline-block;padding:10px 16px;border-radius:10px;background:var(--primary);color:#fff}
+.btn.secondary{background:var(--secondary)}
+.btn:hover{filter:brightness(1.08)}
+.btn.secondary:hover{background:var(--accent)}
+.card{border:1px solid #e5e7eb;border-radius:14px;padding:16px;background:#fff}
+.grid{display:grid;gap:16px}
+.grid.cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+header{border-bottom:1px solid #e5e7eb;background:#fff}
+footer{border-top:1px solid #e5e7eb;background:#fff}
+.badge{font-size:12px;padding:4px 8px;border:1px solid #e5e7eb;border-radius:999px;color:#374151}
+.hero{border-radius:16px;overflow:hidden;background:var(--primary);padding:32px;color:#fff}
+.hero h1{font-size:34px;margin:0 0 8px}
+.hero p{margin:0 0 16px}
+.brand-row{display:flex;gap:16px;align-items:center}
+.brand-row img{height:38px;object-fit:contain}
+.logo{font-weight:600;font-size:20px;color:var(--neutral-dark)}
+nav a{color:var(--neutral-dark);margin-right:12px}
+nav a:last-child{margin-right:0}
+.disclaimer{font-size:12px;color:#6b7280}
